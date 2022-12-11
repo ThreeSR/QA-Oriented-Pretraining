@@ -4,6 +4,6 @@ This is the official code for the report An empirical study of QA-oriented pretr
 
 Report [PDF]
 
-Lecture Link
+[Slide](url)
 
 Video Link
