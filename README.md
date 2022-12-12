@@ -4,7 +4,7 @@ This is the official code for the technical report **An empirical study of QA-or
 
 This project is based on [12-in-1](https://github.com/facebookresearch/vilbert-multi-task). Thanks a lot for their great work.
 
-Here are the links for [3 minutes Video](https://drive.google.com/file/d/1PaaEGvI3VNDh0ouCgQgQwQ2dGqegleFW/view?usp=share_link) and [Full Video](). If you have time, I really suggest you watch my [Full Video](). Here is the [Slide](https://drive.google.com/file/d/1WyITNV54WLIcrr2AsxAmBB2sZBUsS5m1/view?usp=share_link).
+Here are the links for [3 minutes Video](https://drive.google.com/file/d/1PaaEGvI3VNDh0ouCgQgQwQ2dGqegleFW/view?usp=share_link) and [Full Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link). If you have time, I really suggest you watch my [Full Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link). Here is the [Slide](https://drive.google.com/file/d/1WyITNV54WLIcrr2AsxAmBB2sZBUsS5m1/view?usp=share_link).
 
 ## Repository Setup
 
