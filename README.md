@@ -1,6 +1,6 @@
 # QA-Oriented Pretraining
 
-This is the official code for the report An empirical study of QA-oriented pretraining.
+This is the official code for the technical report An empirical study of QA-oriented pretraining.
 
 Report [PDF]
 
