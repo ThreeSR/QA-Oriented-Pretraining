@@ -158,7 +158,7 @@ Take VQA, GQA, and VG QA as an example:
 CUDA_VISIBLE_DEVICES=0 python pretrain_second.py --fp16 --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --tasks 1-2-12 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens --save_name VQA_SecondPretrain —sep
 ```
 
-### Multi-GPU Computing
+### Multi-GPU Training
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train_tasks3.py --fp16 --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --tasks 12 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens --gpus 4
