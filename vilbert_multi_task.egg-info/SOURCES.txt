@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vilbert_multi_task.egg-info/PKG-INFO
+vilbert_multi_task.egg-info/SOURCES.txt
+vilbert_multi_task.egg-info/dependency_links.txt
+vilbert_multi_task.egg-info/top_level.txt
+vilbert_multi_task.egg-info/zip-safe
