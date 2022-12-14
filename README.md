@@ -18,7 +18,7 @@ cd vilbert-multi-task
 pip install -r requirements.txt
 ```
 
-2. Install pytorch
+2. Install pytorch 
 ```
 conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 ```
