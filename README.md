@@ -27,7 +27,7 @@ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 
 4. Install this codebase as a package in this environment.
 ```text
-python setup.py develop
+python setup.py develop 
 ```
 
 ## Data Setup
