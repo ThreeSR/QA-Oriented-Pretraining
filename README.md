@@ -2,7 +2,7 @@
 
 Here are the links for videos: [3 minutes Video](https://drive.google.com/file/d/1PaaEGvI3VNDh0ouCgQgQwQ2dGqegleFW/view?usp=share_link) amd [Full-length Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link). I really sugget you watch the [Full-length Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link).
 
-Here is the link for [Slide](https://drive.google.com/file/d/1WyITNV54WLIcrr2AsxAmBB2sZBUsS5m1/view?usp=share_link). Here is the link for [Report](url).
+Here is the link for [Slide](https://drive.google.com/file/d/1WyITNV54WLIcrr2AsxAmBB2sZBUsS5m1/view?usp=share_link). Here is the link for [Report](https://drive.google.com/file/d/1DsXdD3_INehkO4mzh1M9m7ufjIfUq8lD/view?usp=share_link).
 
 This is the official code for 'An empirical study of QA-oriented Pretraining'. This repo is based on [12-in-1](https://github.com/facebookresearch/vilbert-multi-task). Thanks a lot for their great work.
 
