@@ -181,4 +181,4 @@ python train_tasks.py --bert_model bert-base-uncased --from_pretrained <multi_ta
  
 ## License
 
-vilbert-multi-task is licensed under MIT license available in [LICENSE](LICENSE) file.
+QA-oriented pretrining is licensed under MIT license available in [LICENSE](LICENSE) file.
