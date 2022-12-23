@@ -133,12 +133,16 @@ wget https://dl.fbaipublicfiles.com/vilbert-multi-task/datasets/gqa/gqa_resnext1
 
 ## Visiolinguistic Pre-training and Multi Task Training
 
+### Training Workflow
+
+Pretraining (First-stage Pretraining) -> Single/Multi-task Second-stage Pretraining -> Multi-task Learning -> Finetuning
+
 ### Pretraining on Conceptual Captions
 
 ```
 python train_concap.py --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --train_batch_size 512 --objective 1 --file_path <path_to_extracted_cc_features>
 ```
-[Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/pretrained_model.bin)
+[Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/pretrained_model.bin) (Pretrained Weights)
 
 ### Single-task Second-stage Pretraining
 
@@ -153,7 +157,7 @@ CUDA_VISIBLE_DEVICES=0 python pretrain_second.py --fp16 --bert_model bert-base-u
 Multi-task training includes VQA, GQA, and VG QA.
 
 ```
-CUDA_VISIBLE_DEVICES=0 python train_tasks.py --fp16 --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --tasks 1-2-12 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens
+CUDA_VISIBLE_DEVICES=0 python pretrain_second.py --fp16 --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --tasks 1-2-12 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens
 ```
 
 ### Multi-GPU Training
@@ -170,7 +174,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 python train_tasks.py --bert_model bert-base-uncased --from_pretrained <pretrained_model_path> --config_file config/bert_base_6layer_6conect.json --tasks 1-2-4-7-8-9-10-11-12-13-15-17 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens --save_name multi_task_model
 ```
 
-[Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/multi_task_model.bin)
+[Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/multi_task_model.bin) (Multi-task Learning Weights)
 
 
 ### Fine-tune from Multi-task trained model
