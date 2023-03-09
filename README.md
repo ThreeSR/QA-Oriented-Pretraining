@@ -8,7 +8,7 @@ This is the official code for 'An empirical study of QA-oriented Pretraining'. T
 
 ## Repository Setup 
 
-1. Create a fresh conda environment, and install all dependencies.
+1. Create a fresh conda environment, and install all dependencies. 
 
 ```text
 conda create -n vilbert-mt python=3.6
