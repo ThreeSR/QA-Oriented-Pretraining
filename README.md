@@ -1,4 +1,4 @@
-# A QA-oriented Pretraining 
+# A QA-oriented Pretraining
 
 Here are the links for videos: [3 minutes Video](https://drive.google.com/file/d/1PaaEGvI3VNDh0ouCgQgQwQ2dGqegleFW/view?usp=share_link) amd [Full-length Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link). I really sugget you watch the [Full-length Video](https://drive.google.com/file/d/1mIxxmHmlGJioKSLSjL3rpPAQqZJU4mt1/view?usp=share_link). 
 
